@@ -18,10 +18,10 @@ function updateCountdown() {
   document.getElementById("minutes").textContent = minutes;
   document.getElementById("seconds").textContent = seconds;
 
-  if (difference < 0) {
-    document.getElementById("countdown").innerHTML =
-      "<h2>The wedding has started!</h2>";
-  }
+  //if (difference < 0) {
+  //  document.getElementById("countdown").innerHTML =
+  //    "<h2>The wedding has started!</h2>";
+  //}
 }
 
 // Update every second
